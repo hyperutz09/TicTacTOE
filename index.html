@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    
+    <main class="background">
+        <!--<img src="https://www.shutterstock.com/image-illustration/80s-retro-scifi-background-260nw-306343211.jpg">-->
+        <section class="title">
+           <div class="wavy">
+            <span style="--i:1;">T</span>
+            <span style="--i:2;">I</span>
+            <span style="--i:3;">C</span>
+            <span style="--i:4;">-</span>
+            <span style="--i:5;">T</span>
+            <span style="--i:6;">A</span>
+            <span style="--i:7;">C</span>
+            <span style="--i:8;">-</span>
+            <span style="--i:9;">T</span>
+            <span style="--i:10;">O</span>
+            <span style="--i:11;">E</span>
+           </div>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="outerbox">
+                    <section class="container">
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                    <div class="tile"></div>
+                </section>
+           
+            
+        </section>
+        
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</body>
+</html>
